@@ -1,0 +1,1 @@
+rm -f "/data/adb/service.d/reset_bl_props.sh"
