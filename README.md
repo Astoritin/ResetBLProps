@@ -30,5 +30,12 @@ Reset Bootloader Properties as factory default values. / 重置 Bootloader 属�
    
 ## Why does bootloader properties reset script not merge into Zygisk Next? / 为什么 Bootloader 属性值重置脚本并未被合并至 Zygisk Next?
    
-- **For clearer module functionality**——Zygisk Next is a module providing Zygisk API instead of hiding Root. The hiding of bootloader properties details is not Zygisk Next's responsibility to do.   
-- **为了使模块功能更清晰明确**——Zygisk Next 是用于提供 Zygisk API 的模块而不是隐藏 Root。隐藏 Bootloader 属性值细节不是 Zygisk Next 的范畴。
+- **For clearer module functionality**——Zygisk Next is a module providing Zygisk API instead of hiding Root. It is not Zygisk Next's responsibility to hide bootloader properties details.   
+- **为了使模块功能更清晰明确**——Zygisk Next 是用于提供 Zygisk API 的模块而不是隐藏 Root。隐藏 Bootloader 属性值细节不是 Zygisk Next 的工作。
+
+## Credits / 鸣谢
+   
+- [Magisk](https://github.com/topjohnwu/Magisk)
+- [LSPosed](https://github.com/LSPosed/LSPosed)
+- [Shamiko](https://github.com/LSPosed/LSPosed.github.io)
+- [Zygisk Next](https://github.com/Dr-TSNG/ZygiskNext)
